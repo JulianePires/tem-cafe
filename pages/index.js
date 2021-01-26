@@ -5,6 +5,7 @@ import QuizLogo from '../src/components/QuizLogo'
 import QuizBackground from '../src/components/QuizBackground'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
+import Head from 'next/head'
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -27,6 +28,13 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>{db.title}</title>
+      <meta property="og:title" content={db.title} key="title" />
+      <meta property="og:image" content={db.bg}/>
+      <meta property="og:type" content="game"/>
+    </Head>
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
         <QuizLogo />
@@ -50,5 +58,6 @@ export default function Home() {
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/JulianePires" />
     </QuizBackground>
+    </>
   );
 }
