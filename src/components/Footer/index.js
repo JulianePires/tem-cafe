@@ -23,6 +23,10 @@ const FooterWrapper = styled.footer`
       text-decoration: underline;
     }
   }
+
+  p{
+      color: ${({theme}) => theme.colors.secondary};
+  }
 `;
 
 export default function Footer(props) {

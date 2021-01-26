@@ -1,28 +1,31 @@
 {
-    "bg": "https://julianepires.myscriptcase.com/imagens/1.png",
-    "title": "Tu estila com CSS",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "bg": "https://julianepires.myscriptcase.com/imagens/temcafe.png",
+    "title": "Tem Café?",
+    "logo": "https://julianepires.myscriptcase.com/imagens/logo.png",
+    "description": "Mostre o quão cafeinade você pode ser nesse quiz energético!",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://68.media.tumblr.com/b2f9941278a1a9ff4a517366ca28fb0f/tumblr_onrs8nZvSA1s30ko5o1_500.gif",
+        "title": "O café é uma?",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "raiz",
+          "fruta",
+          "flor",
+          "folha"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://68.media.tumblr.com/f7682ded5a82aab115f5870bd9887982/tumblr_olpczheN0s1s30ko5o1_500.gif",
+        "title": "Qual a origem do café?",
+        "description": "Essa é fácil",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Centro oeste do Brasil",
+           "Arábia Saudita, no oriente médio",
+           "Etiópia, região de Cafa",
+           "Egito, "
         ]
       }
     ],
@@ -31,11 +34,11 @@
     ],
     "theme": {
       "colors": {
-        "primary": "#ffea00",
-        "secondary": "#512da8",
-        "widgetBg": "#080803",
+        "primary": "#120000",
+        "secondary": "#ff6f00",
+        "widgetBg": "#ffa040",
         "mainBg": "#171B35",
-        "contrastText": "#FFFFFF",
+        "contrastText": "#120000",
         "wrong": "#FF5722",
         "success": "#4CAF50"
       },
