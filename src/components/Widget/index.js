@@ -3,8 +3,8 @@ import styled from 'styled-components';
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
-  border: 1px solid ${({theme}) => theme.colors.primary};
-  background-color: ${({theme}) => theme.colors.widgetBg};
+  border: 1px solid ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.widgetBg};
   border-radius: 4px;
   overflow: hidden;
   
@@ -45,7 +45,7 @@ Widget.Header = styled.header`
   align-items: center;
   padding: 18px 32px;
   background-color: ${({ theme }) => theme.colors.primary};
-  color: ${({theme}) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.secondary};
 
   *{
     margin: 0;

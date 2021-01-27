@@ -1,8 +1,9 @@
 {
     "bg": "https://julianepires.myscriptcase.com/imagens/temcafe.png",
-    "title": "Tem Café?",
+    "title": "Tem Café? - Um quiz cafeinado",
     "logo": "https://julianepires.myscriptcase.com/imagens/logo.png",
-    "description": "Mostre o quão cafeinade você pode ser nesse quiz energético!",
+    "description": "Mostre o quão cafeinade você pode ser nesse quiz energético sobre a história do café e suas curiosidades",
+    "metaImg": "https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png",
     "questions": [
       {
         "image": "https://68.media.tumblr.com/b2f9941278a1a9ff4a517366ca28fb0f/tumblr_onrs8nZvSA1s30ko5o1_500.gif",
@@ -37,7 +38,7 @@
         "primary": "#120000",
         "secondary": "#ff6f00",
         "widgetBg": "#ffa040",
-        "mainBg": "#171B35",
+        "mainBg": "#120000",
         "contrastText": "#120000",
         "wrong": "#FF5722",
         "success": "#4CAF50"

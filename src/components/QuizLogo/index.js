@@ -1,23 +1,18 @@
 import styled from 'styled-components';
-import db from '../../../db.json'
 import React from 'react';
-import PropTypes from 'prop-types';
+import db from '../../../db.json';
 
 const Brand = styled.img`
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     transform: translateX(100px);
 `;
 
 function Logo() {
   return (
-    <Brand src={db.logo}></Brand>
+    <Brand src={db.logo} />
   );
 }
-
-Logo.propTypes = {
-  className: PropTypes.string.isRequired,
-};
 
 const QuizLogo = styled(Logo)`
   margin: auto;

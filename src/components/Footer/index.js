@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
@@ -25,7 +26,7 @@ const FooterWrapper = styled.footer`
   }
 
   p{
-      color: ${({theme}) => theme.colors.secondary};
+      color: ${({ theme }) => theme.colors.secondary};
   }
 `;
 
