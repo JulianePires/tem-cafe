@@ -28,42 +28,6 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
-
-  input{
-    width: 100%;
-    height: 40px;
-    background-color: ${({ theme }) => theme.colors.secondary};
-    border: 2px solid #c43e00;
-    border-radius: 4px;
-    padding-left: 16px;
-    color: ${({ theme }) => theme.colors.primary};
-    margin-bottom: 24px;
-    font-family: 'Balsamiq Sans', cursive;
-
-    &::-webkit-input-placeholder{
-      color: #c43e00;
-    }
-  }
-
-  textarea:focus, input:focus, select:focus {
-    outline: 0;
-  }
-
-  button{
-    width: 100%;
-    height: 40px;
-    background-color: ${({ theme }) => theme.colors.primary};
-    border-radius: 4px;
-    border: none;
-    text-align: center;
-    color: #ffa040;
-    font-family: 'Balsamiq Sans', cursive;
-
-    &:disabled{
-      background: #3e2723;
-      color: #6a4f4b;
-    }
-  }
 `;
 
 const { theme } = db;

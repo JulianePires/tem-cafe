@@ -7,14 +7,13 @@
     "questions": [
       {
         "image": "https://68.media.tumblr.com/b2f9941278a1a9ff4a517366ca28fb0f/tumblr_onrs8nZvSA1s30ko5o1_500.gif",
-        "title": "O café é uma?",
+        "title": "O café é uma:",
         "description": "Essa é pra aquecer",
         "answer": 1,
         "alternatives": [
           "raiz",
           "fruta",
-          "flor",
-          "folha"
+          "flor"
         ]
       },
       {
@@ -25,8 +24,95 @@
         "alternatives": [
            "Centro oeste do Brasil",
            "Arábia Saudita, no oriente médio",
-           "Etiópia, região de Cafa",
-           "Egito, "
+           "Etiópia, região de Cafa"
+        ]
+      },
+      {
+        "image": "https://68.media.tumblr.com/faa3e9d60c0c0e0d890dcb7131c204fd/tumblr_olpd7atLhz1s30ko5o1_500.gif",
+        "title": "Qual é o principal motivo para se torrar o café?",
+        "description": "Quero ver",
+        "answer": 0,
+        "alternatives": [
+           "Revelar diferentes características, sabores e aromas dos grãos",
+           "Tirar possíveis impurezas dos grãos",
+           "Aumentar a durabilidade dos grãos"
+        ]
+      },
+      {
+        "image": "https://68.media.tumblr.com/3bcd21c7aac7fadf01edff22d9f132fa/tumblr_o42rp0el5f1sijyd6o1_500.gif",
+        "title": "Uma das características de um café da Categoria Especial é:",
+        "description": "Pra quem é gourmetizado",
+        "answer": 1,
+        "alternatives": [
+           "A tolerância de até 10% de grãos defeituosos em sua composição",
+           "A garantia de procedência do café",
+           "O equilíbrio da mistura entre o café Robusta e Arábica"
+        ]
+      },
+      {
+        "image": "https://68.media.tumblr.com/94ec2adadeb544ff48b6ddc311d14691/tumblr_o7jel5APqq1qin2uco1_500.gif",
+        "title": "Qual desses acessórios de café foi criado por um inventor de brinquedos?",
+        "description": "Toda minha gratidão a essa pessoa <3",
+        "answer": 0,
+        "alternatives": [
+           "Aeropress",
+           "Máquina de espresso",
+           "Cafeteira italiana"
+        ]
+      },
+      {
+        "image": "https://68.media.tumblr.com/6c698fa47f9f8bae1cf9ad45929ff2e5/tumblr_o2kcx5lN7k1v37cezo1_500.gif",
+        "title": "De zero a cem, quantos pontos um café precisa atingir em sua avaliação sensorial para ser classificado como Categoria Especial, segundo a Associação Brasileira de Cafés Especiais?",
+        "description": "Essa eu quero ver",
+        "answer": 1,
+        "alternatives": [
+           "40 pontos",
+           "80 pontos",
+           "98 pontos"
+        ]
+      },
+      {
+        "image": "https://68.media.tumblr.com/0af7814dc1e3dc1b3880e3a82a7ee681/tumblr_omengeBlc71w0mnono1_400.gif",
+        "title": "Qual é o Estado brasileiro que mais produz cafés especiais?",
+        "description": "E ai?",
+        "answer": 2,
+        "alternatives": [
+           "Espírito Santo",
+           "São Paulo",
+           "Minas Gerais"
+        ]
+      },
+      {
+        "image": "https://68.media.tumblr.com/4bef5850ff43e762051bca1920daa0b4/tumblr_om8sfz0RCw1vaqoiqo1_400.gif",
+        "title": "Qual é a razão de se escrever 'café espresso' em vez de 'expresso'?",
+        "description": "Só sei que é bom, hein?",
+        "answer": 0,
+        "alternatives": [
+           "Espresso significa 'espremido' em italiano",
+           "É assim que se escreve “expresso” em italiano, e a grafia pegou no Brasil",
+           "'Espresso' é uma marca registrada"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/eWLDhSJ206rUQ/giphy.gif",
+        "title": "O café do tipo Arábica é conhecido por ser plantado em regiões...",
+        "description": "Mamão, digo, café com açúcar",
+        "answer": 0,
+        "alternatives": [
+           "Montanhosas",
+           "De baixas temperaturas",
+           "Litorânea"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/Vo6xlTxdhpAoU/giphy.gif",
+        "title": "O que é Chemex?",
+        "description": "Para finalizar!!!",
+        "answer": 0,
+        "alternatives": [
+           "Um acessório para filtrar café",
+           "Uma técnica de extração a frio",
+           "Uma variedade de café Arábica"
         ]
       }
     ],

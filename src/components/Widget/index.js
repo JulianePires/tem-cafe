@@ -52,4 +52,10 @@ Widget.Header = styled.header`
   }
 `;
 
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+`;
+
 export default Widget;
