@@ -129,6 +129,7 @@
         "wrong": "#FF5722",
         "success": "#4CAF50"
       },
-      "borderRadius": "4px"
+      "borderRadius": "4px",
+      "loaderGif": "https://media.giphy.com/media/dAFoYz1xL6DLhTzEo1/giphy.gif"
     }
   }

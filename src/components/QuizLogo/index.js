@@ -3,9 +3,10 @@ import React from 'react';
 import db from '../../../db.json';
 
 const Brand = styled.img`
-    width: 100px;
-    height: 100px;
-    transform: translateX(100px);
+    width: 70px;
+    height: 70px;
+    transform: translateX(130px);
+    margin: -20px 0;
 `;
 
 function Logo() {

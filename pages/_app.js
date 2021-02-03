@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
   }
   
   html, body {
-    min-height: 100vh;
+    height: 100vh;
   }
   
   #__next {
